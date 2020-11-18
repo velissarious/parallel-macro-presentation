@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Parallel-Macro</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/simple.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2> Bridging Fiji and OpenMPI for Easy-to-Use Parallel Processing of Images </h2>
+					<img src="images/bridge.png" class="r-stretch">
+				</section>
+				<section>
+					<h2> Outline </h2>
+					<ul>
+						<li> Gain access to remote HPC </li>
+						<li> Installation and configuration of the plugin </li>
+						<li> Upload, run and download macros remotely </li>
+						<li> Monitoring progress, output and error reporting </li>
+						<li> Parallelization of a Macro script </li>
+						<li> Demonstration how to parallelize macros </li>
+						<li> Advanced parallelization of processing on large images by use of MPI-aware Ops </li>
+					</ul>
+				</section>
+				<section>
+					<h2> Workshop structure </h2>
+					<ul>
+						<li> Each part of the workshop is hands-on. </li>
+						<li> The participants are expected to first attempt to work through the practical worksheets. </li>
+						<li> Follow the link in the presentation to open the worksheet. </li>
+						<li> The worksheets will then be presented and explained by the presenter. </li>
+					</ul>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Gain access to remote HPC </h2>
+					</section>
+					<section>
+						<h3> Gain access to remote HPC </h3>
+						<ul>
+							<li> <a href="https://scs.it4i.cz/training">Get training credentials</a> </li>
+							<img src="images/cluster.png" class="r-strech">
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Installation and configuration of the plugin </h2>
+					</section>
+					<section>
+						<h3> Installation and configuration of the plugin </h3>
+						<ul>
+							<li> Installation: </li>
+							<ul>
+								<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/How-to-install-HPC-Workflow-Manager-client">How to install HPC Workflow Manager client</a> </li> 
+								<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/blob/master/README.md">How to install Parallel Macro on a remote cluster.</a> </li>
+							</ul>
+						</ul>
+					</section>
+					<section>
+						<h3> Installation and configuration of the plugin </h3>
+						<ul>
+							<li> Configuration: </li>
+							<ul>
+								<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/How-to-set-up-the-paradigm-for-Parallel-Macro">How to set up the paradigm for Parallel Macro</a> </li>
+							</ul>
+						</ul>
+						<img src="images/paradigm.png" class="r-stretch">
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Upload, run and download macros remotely </h2>
+					</section>
+					<section>
+						<h3> Upload, run and download macros remotely </h3>
+						<ul>
+							<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/Using-HPC-Workflow-Manager-to-start-a-new-Macro-job">Using HPC Workflow Manager to start a new Macro job</a> </li>
+						</ul>
+						<img src="images/clusterSide.png" class="r-stretch">
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Monitoring progress, output and error reporting </h2>
+					</section>
+					<section>
+						<h3> Monitoring progress, output and error reporting </h3>
+						<ul>
+							<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/Monitoring-progress%2C-output-and-error-reporting">Monitoring progress, output and error reporting</a> </li> </li>
+						</ul>
+						<img src="images/progress.png" class="r-stretch">
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Parallelization of a Macro script </h2>
+					</section>
+					<section>
+						<h3> Parallelization of a Macro script </h3>
+						<ul>
+							<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/How-to-write-a-parallel-Macro">How to write a parallel Macro</a> </li>
+						</ul>
+						<img src="images/editor.png" class="r-stretch">
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Demonstration of a real parallel macro </h2>
+					</section>
+					<section>
+						<h3> Demonstration of a real parallel macro </h3>
+						<ul>
+							<li> <a href="https://github.com/MKrumnikl/Ij1MPIWrapper/wiki/Demonstration-of-a-real-parallel-macro">Demonstration of a real parallel macro</a> </li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Advanced parallelization of processing on large images by use of MPI-aware Ops </h2>
+					</section>
+					<section>
+						<h3> Advanced parallelization of processing on large images by use of MPI-aware Ops </h3>
+						<ul>
+							<li> <a href="http://linedu.cs.vsb.cz/~trn0038/prez/">OpenMPI-enabled Fiji with scijava-parallel-mpi</a> </li>
+						</ul>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+						<h2> Discussion </h2>
+					</section>
+					<section data-background-image="images/qna.png">
+						<h3> Discussion </h3>
+						<ul>
+							<li> Recap </li>
+							<ul>
+								<li> Gain access to remote HPC </li>
+								<li> Installation and configuration of the plugin </li>
+								<li> Upload, run and download macros remotely </li>
+								<li> Monitoring progress, output and error reporting </li>
+								<li> Parallelization of a Macro script </li>
+								<li> Demonstration how to parallelize macros </li>
+								<li> Advanced parallelization of processing on large images by use of MPI-aware Ops </li>
+							</ul>
+						</ul>
+						<p>Thank you!</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				// Disable animated transitions between slides.
+				// This is because zoom has a low frame rate and 
+				// the animations cause confusion as to how 
+				// many times the slide changed.
+				transition: 'none',
+				// Display the page number of the current slide
+				slideNumber: true,
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
